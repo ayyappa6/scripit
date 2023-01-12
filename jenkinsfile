@@ -26,10 +26,10 @@ pipeline {
 			echo "this is the fith stage"
 			}
 		}
-		stage ('this is sixth stage ){
+		stage ('this is sixth stage '){
 			steps {
-				echo "this is sixt stage "
-				}
+				echo ""this is sixth stage of the jenkins "
 			}
+		}
 	}
 }
