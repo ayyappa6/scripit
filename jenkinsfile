@@ -11,6 +11,11 @@ pipeline {
 				echo "this tis second stage of jenkins files "
 				}
 			}
+		stage ('third stage of the script') {
+			steps {
+				echo "this is the tird stage of the "
+				}
+			}
 		}
 	}
 
