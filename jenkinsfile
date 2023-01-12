@@ -26,6 +26,5 @@ pipeline {
 			echo "this is the fith stage"
 			}
 		}
-		}
 	}
-
+}
