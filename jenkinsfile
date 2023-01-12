@@ -21,7 +21,7 @@ pipeline {
 				echo "this is the fourth stage of the script"
 				}
 			}
-		stage ('this is fith stage of jenkins')
+		stage ('this is fith stage of jenkins') {
 			steps {
 			echo "this is the fith stage"
 			}
